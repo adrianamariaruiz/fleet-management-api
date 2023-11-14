@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 20px;
+}
+
+#wrapper{
+    display: flex;
+    justify-content: center;
+    align-item: center;
+    width: 100vw;
+}
+
+.text-primary{
+    font-size: 20px;
+}
+
+.text-secondary{
+    font-size: 18px;
+}
+
+.card-body{
+    border: 1px solid black;
+    width: 90%;
+}
+
+table {
+    border-collapse: collapse;
+    font-weight: bold;
+    height: 80px;
+    max-width: 1440px;
+    margin: 20px 0;
+}
+
+th {
+    text-align: center;
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+    text-align: left;
+}
+
+thead {
+    background-color: #000000;
+    color: white;
+    border-bottom: solid 3px white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #D5D5D5;
+    opacity: 90%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+    opacity: 90%;
+}
+
+.btn{
+    background-color: #3498DB;
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tables</title>
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+<body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+            <!-- Main Content -->
+            <div id="content">
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="text-primary">Taxis Fleet Management</h1>
+                    <p class="text-secondary">All Taxis View</p>
+
+                    <!-- DataTales Example -->
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table">
+                                <table class="table" id="dataTable">
+                                    <tbody>
+                                        <thead>
+                                        <tr>
+                                            <th>id</th>
+                                            <th>license</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>KLII-6735</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>KLIT-6736</td>
+                                        </tr>
+                                        </tbody>
+                                    </tbody>
+                                </table>
+                                <div>
+                                    <button class="btn">Anterior</button>
+                                    <button class="btn">Siguiente</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container-fluid -->
+            </div>
+            <!-- End of Main Content -->
+        </div>
+        <!-- End of Content Wrapper -->
+    </div>
+    <!-- End of Page Wrapper -->
+    <script src="taxisInfo.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          taxisInfo();
+        });
+    </script>
+</body>
+
+</html>
